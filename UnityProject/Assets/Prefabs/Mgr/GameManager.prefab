@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3620921917796673817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3620921917796673815}
+  - component: {fileID: 3620921917796673816}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3620921917796673815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3620921917796673817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3620921917796673816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3620921917796673817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae35fe3f3b5ec2148994b4959f6c2af5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorSpecs:
+  - {fileID: 11400000, guid: b33176786a4d4fe48b45f237f079dc07, type: 2}
+  - {fileID: 11400000, guid: 0e01cecf0305b374f8821d70528d6974, type: 2}
+  - {fileID: 11400000, guid: 39d949864880f654bb07ad1b9de8b502, type: 2}
+  - {fileID: 11400000, guid: de640a712b40055489f6e5bfab191602, type: 2}
+  - {fileID: 11400000, guid: c8c0e767aa2708447b78959f8d547a40, type: 2}
+  - {fileID: 11400000, guid: 902068c77fdd6f04d83dde906fd60947, type: 2}
+  mainMenuScene: 0
+  creditsScene: 3
+  selectCharactersScene: 1
+  levelScene: 2
+  levelManager: {fileID: 0}
+  players:
+  - colorSpec: {fileID: 11400000, guid: b33176786a4d4fe48b45f237f079dc07, type: 2}
+    bindings: {fileID: 11400000, guid: 114e1aed43d40bd47a9dd3e9d8c1fa2d, type: 2}
+  - colorSpec: {fileID: 11400000, guid: 0e01cecf0305b374f8821d70528d6974, type: 2}
+    bindings: {fileID: 11400000, guid: b6f54c06d8d92e84e846af810f400850, type: 2}
+  - colorSpec: {fileID: 11400000, guid: 39d949864880f654bb07ad1b9de8b502, type: 2}
+    bindings: {fileID: 11400000, guid: 32161603831a3d94a92dfd6743ffb2a2, type: 2}
+  - colorSpec: {fileID: 11400000, guid: de640a712b40055489f6e5bfab191602, type: 2}
+    bindings: {fileID: 11400000, guid: fa77e31e12debd943874d68685a55135, type: 2}
